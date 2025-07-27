@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">ToDoPro</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#tasks">Tasks</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="toggleDarkMode" class="dark-btn"> Dark Mode</button>
+  </nav>
+
+  <section class="hero-section">
+    <h1>Plan Smarter, Do Better</h1>
+    <p>Stay on top of your daily goals with this minimal To-Do app.</p>
+  </section>
+
+ 
+
+  <div id="tasks" class="container">
+    <h2>Your To-Do List</h2>
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+ <section class="features-section">
+  <h2>Features of this App</h2>
+  <div class="features-grid">
+    <div class="skill-card">
+      <h3>Focus Mode</h3>
+      <p>Stay distraction-free with a minimal interface and dark mode toggle.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Quick Reminders</h3>
+      <p>Add, edit, or delete tasks easily and never miss your daily goals.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Auto Save</h3>
+      <p>Your tasks are stored locally, so they’re safe even after you close the browser.</p>
+    </div>
+  </div>
+</section>
+
+  <footer id="contact" class="footer">
+    <p>Made by Abdul Mueed Khan | <a href="#">GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
